@@ -1,0 +1,96 @@
+ul
+{
+  list-style:none;
+}
+body {
+  margin:0;
+  display: flex;
+  background: #272727;
+  color: #EEE7E1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-left{
+  position:absolute;
+  display: flex;
+  top: 60%;
+  width: 35%;
+  justify-content: center;
+  align-items: center;
+}
+
+ .nav-left-item{
+  margin:27px;
+ }
+
+
+.social-link:hover{
+  text-decoration: line-through;
+}
+
+.nav-middle{
+  width: 25%;
+  font-size:xx-large;
+  margin-top: 10%;
+  margin-left:10%;
+}
+
+.name{
+  font-weight:300;
+  font-family:Segoe Script;
+}
+
+.position{
+  font-size:medium;
+}
+
+.nav-right{
+  margin:5%;
+  font-size: 31px;
+  font-family:cursive;
+}
+
+.nav-right-item{
+  transition: all 0.5s linear;
+}
+
+.nav-right-item:hover{
+  transform: translateX(5px);
+  font-style: italic;
+}
+
+.nav-link{
+  text-decoration:none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 1.2em;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-linkedin {
+  background:black;
+  color:aquamarine;
+}
+
+.fa-instagram {
+  background:black;
+  color:aquamarine;
+}
+
+.fa-github {
+  background: black;
+  color:aquamarine ;
+}
